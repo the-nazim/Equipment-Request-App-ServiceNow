@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="bb94d74a83c817103284c5a6feaad31b" label="Equipment Request" max_length="40" name="x_2262012_employ_1_equipment_request" type="collection">
+        <element choice="1" label="Laptop Model" max_length="40" name="laptop_model" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Huawei" value="huawei"/>
+                <element inactive_on_update="false" label="Toshiba" value="toshiba"/>
+                <element inactive_on_update="false" label="Acer" value="acer"/>
+                <element inactive_on_update="false" label="Dell" value="dell"/>
+                <element inactive_on_update="false" label="Microsoft" value="microsoft"/>
+                <element inactive_on_update="false" label="Lenova" value="lenova"/>
+                <element inactive_on_update="false" label="HP" value="hp"/>
+                <element inactive_on_update="false" label="MSI" value="msi"/>
+                <element inactive_on_update="false" label="Asus" value="asus"/>
+            </choice>
+        </element>
+        <element choice="1" label="Item Type" max_length="40" name="item_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Mouse" value="mouse"/>
+                <element inactive_on_update="false" label="Keyboard" value="keyboard"/>
+                <element inactive_on_update="false" label="UPS" value="ups"/>
+                <element inactive_on_update="false" label="Monitor" value="monitor"/>
+                <element inactive_on_update="false" label="Laptop" value="laptop"/>
+                <element inactive_on_update="false" label="Chair" value="chair"/>
+            </choice>
+        </element>
+        <element choice="1" label="Keyboard Model" max_length="40" name="keyboard_model" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Microsoft" value="microsoft"/>
+                <element inactive_on_update="false" label="Dell" value="dell"/>
+                <element inactive_on_update="false" label="Samsung" value="samsung"/>
+                <element inactive_on_update="false" label="Asus" value="asus"/>
+                <element inactive_on_update="false" label="Toshiba" value="toshiba"/>
+                <element inactive_on_update="false" label="Fujitsu" value="fujitsu"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Mouse Model" max_length="40" name="mouse_model" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Asus" value="asus"/>
+                <element inactive_on_update="false" label="Lenova" value="lenova"/>
+                <element inactive_on_update="false" label="HP" value="hp"/>
+                <element inactive_on_update="false" label="Acer" value="acer"/>
+                <element inactive_on_update="false" label="Dell" value="dell"/>
+            </choice>
+        </element>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cancelled" value="cancelled"/>
+                <element inactive_on_update="false" label="Requested" value="requested"/>
+                <element inactive_on_update="false" label="Rejected" value="rejected"/>
+                <element inactive_on_update="false" label="Approved" value="approved"/>
+            </choice>
+        </element>
+        <element label="Requested By" max_length="32" name="requested_by" reference="sys_user" reference_qual="department=221f3db5c6112284009f4becd3039cc9^ORdepartment=9a7ed3f03710200044e0bfc8bcbe5db7^ORdepartment=221f79b7c6112284005d646b76ab978c^active=true^EQ" reference_qual_condition="department=221f3db5c6112284009f4becd3039cc9^ORdepartment=9a7ed3f03710200044e0bfc8bcbe5db7^ORdepartment=221f79b7c6112284005d646b76ab978c^active=true^EQ" type="reference"/>
+        <element label="Manager" max_length="32" name="manager" reference="sys_user" type="reference"/>
+        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element label="Justification" max_length="4000" name="justification" type="journal_input"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="manager"/>
+        </index>
+        <index name="index2">
+            <element name="requested_by"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <federated_id>NehzX39o3Jx5Aeqapm4GK6L8eVRCpiba0vSfQUtQNtY=</federated_id>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_2262012_employ_1.equipment_request_user</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>equipment_request_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-22 06:03:10</sys_created_on>
+        <sys_id>ea45578a83c817103284c5a6feaad346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2262012_employ_1.equipment_request_user</sys_name>
+        <sys_package display_value="Employee Equipment Request" source="x_2262012_employ_1">b6b11fc283c817103284c5a6feaad350</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Equipment Request">b6b11fc283c817103284c5a6feaad350</sys_scope>
+        <sys_update_name>sys_user_role_ea45578a83c817103284c5a6feaad346</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-22 06:03:10</sys_updated_on>
+    </sys_user_role>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>keyboard_model</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-22 09:43:22</sys_created_on>
+        <sys_id>25a7c85e834057103284c5a6feaad3f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>keyboard_model</sys_name>
+        <sys_package display_value="Employee Equipment Request" source="x_2262012_employ_1">b6b11fc283c817103284c5a6feaad350</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Equipment Request">b6b11fc283c817103284c5a6feaad350</sys_scope>
+        <sys_update_name>sys_ui_policy_action_25a7c85e834057103284c5a6feaad3f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-22 09:43:22</sys_updated_on>
+        <table>x_2262012_employ_1_equipment_request</table>
+        <ui_policy display_value="Liting keyboard model if item selected is keyboard">7677845e834057103284c5a6feaad3b6</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=25a7c85e834057103284c5a6feaad3f2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Equipment Request">b6b11fc283c817103284c5a6feaad350</application>
+        <file_path/>
+        <instance_id>1a9d8637ebf70b5c3a48f459bad0cdcf</instance_id>
+        <instance_name>dev455348</instance_name>
+        <merge_base/>
+        <name>sys_ui_policy_action_25a7c85e834057103284c5a6feaad3f2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>keyboard_model</field><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-22 09:43:22</sys_created_on><sys_id>25a7c85e834057103284c5a6feaad3f2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>keyboard_model</sys_name><sys_package display_value="Employee Equipment Request" source="x_2262012_employ_1">b6b11fc283c817103284c5a6feaad350</sys_package><sys_policy/><sys_scope display_value="Employee Equipment Request">b6b11fc283c817103284c5a6feaad350</sys_scope><sys_update_name>sys_ui_policy_action_25a7c85e834057103284c5a6feaad3f2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-22 09:43:22</sys_updated_on><table>x_2262012_employ_1_equipment_request</table><ui_policy display_value="Liting keyboard model if item selected is keyboard">7677845e834057103284c5a6feaad3b6</ui_policy><value/><value_action>ignore</value_action><visible>true</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=25a7c85e834057103284c5a6feaad3f2"/></record_update>]]></payload>
+        <payload_hash>-1024746627</payload_hash>
+        <record_name>keyboard_model</record_name>
+        <reverted_from/>
+        <source>6e4593ca83c817103284c5a6feaad3f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-22 09:43:22</sys_created_on>
+        <sys_id>c0b74c5e834057103284c5a6feaad3bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a162fe674b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-22 09:43:22</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>80b74c5ee8405710db838dea70e635bb</update_guid>
+        <update_guid_history>80b74c5ee8405710db838dea70e635bb:-1024746627</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-22 09:45:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>2048326146494abc88685d07b2f31890</sys_id>
+        <sys_metadata>25a7c85e834057103284c5a6feaad3f2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>keyboard_model</sys_name>
+        <sys_package display_value="Employee Equipment Request" source="x_2262012_employ_1">b6b11fc283c817103284c5a6feaad350</sys_package>
+        <sys_parent display_value="Listing keyboard model if item selected is keyboard">7677845e834057103284c5a6feaad3b6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Equipment Request">b6b11fc283c817103284c5a6feaad350</sys_scope>
+        <sys_scope_delete display_value="">16d041fbfd9c4bdc877c5af6a5ef0924</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_25a7c85e834057103284c5a6feaad3f2</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_25a7c85e834057103284c5a6feaad3f2">c0b74c5e834057103284c5a6feaad3bc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-22 09:45:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

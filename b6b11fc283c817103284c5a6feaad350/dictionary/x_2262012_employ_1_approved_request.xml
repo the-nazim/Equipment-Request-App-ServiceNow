@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="79ea48d2838057103284c5a6feaad395" extends="x_2262012_employ_1_equipment_request" label="Approved Request" max_length="40" name="x_2262012_employ_1_approved_request" type="collection"/>
+</database>
