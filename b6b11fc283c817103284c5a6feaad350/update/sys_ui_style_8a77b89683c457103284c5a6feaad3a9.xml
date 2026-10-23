@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="INSERT_OR_UPDATE">
+        <alt/>
+        <element>number</element>
+        <name>x_2262012_employ_1_equipment_request</name>
+        <style>background-color:green</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-22 13:15:15</sys_created_on>
+        <sys_id>8a77b89683c457103284c5a6feaad3a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2262012_employ_1_equipment_request</sys_name>
+        <sys_package display_value="Employee Equipment Request" source="x_2262012_employ_1">b6b11fc283c817103284c5a6feaad350</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Equipment Request">b6b11fc283c817103284c5a6feaad350</sys_scope>
+        <sys_update_name>sys_ui_style_8a77b89683c457103284c5a6feaad3a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-22 13:15:15</sys_updated_on>
+        <themed_style/>
+        <value>javascript:current.status == 'approved'</value>
+    </sys_ui_style>
+    <sys_translated_text action="delete_multiple" query="documentkey=8a77b89683c457103284c5a6feaad3a9"/>
+</record_update>

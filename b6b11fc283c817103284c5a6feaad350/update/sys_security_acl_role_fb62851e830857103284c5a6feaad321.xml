@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-22 14:00:16</sys_created_on>
+        <sys_id>fb62851e830857103284c5a6feaad321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_2262012_employ_1.requestor</sys_name>
+        <sys_package display_value="Employee Equipment Request" source="x_2262012_employ_1">b6b11fc283c817103284c5a6feaad350</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Equipment Request">b6b11fc283c817103284c5a6feaad350</sys_scope>
+        <sys_security_acl display_value="x_2262012_employ_1_equipment_request">c742cdda830857103284c5a6feaad3cd</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_fb62851e830857103284c5a6feaad321</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-22 14:00:16</sys_updated_on>
+        <sys_user_role display_value="x_2262012_employ_1.requestor" name="x_2262012_employ_1.requestor">f6b11fc283c817103284c5a6feaad37d</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

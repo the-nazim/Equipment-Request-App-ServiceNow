@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Notes" section_id="d9826746834c17103284c5a6feaad308" sys_domain="global" table="x_2262012_employ_1_equipment_request" version="3" view="Requestor_View">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>justification</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-22 07:01:02</sys_created_on>
+            <sys_id>d2826746834c17103284c5a6feaad397</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_2262012_employ_1_equipment_request" sys_domain="global" view="b64f53ce830c17103284c5a6feaad372">d9826746834c17103284c5a6feaad308</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-22 07:01:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Notes</caption>
+            <header>false</header>
+            <name>x_2262012_employ_1_equipment_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-22 07:00:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d9826746834c17103284c5a6feaad308</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2262012_employ_1_equipment_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Employee Equipment Request" source="x_2262012_employ_1">b6b11fc283c817103284c5a6feaad350</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Equipment Request">b6b11fc283c817103284c5a6feaad350</sys_scope>
+            <sys_update_name>sys_ui_section_d9826746834c17103284c5a6feaad308</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-22 07:00:58</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Requestor View" name="Requestor_View">b64f53ce830c17103284c5a6feaad372</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Equipment Request">b6b11fc283c817103284c5a6feaad350</application>
+        <file_path/>
+        <instance_id>1a9d8637ebf70b5c3a48f459bad0cdcf</instance_id>
+        <instance_name>dev455348</instance_name>
+        <merge_base/>
+        <name>sys_ui_section_d9826746834c17103284c5a6feaad308</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Notes" section_id="d9826746834c17103284c5a6feaad308" sys_domain="global" table="x_2262012_employ_1_equipment_request" version="3" view="Requestor_View"><sys_ui_element action="INSERT_OR_UPDATE"><element>justification</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-22 07:01:02</sys_created_on><sys_id>d2826746834c17103284c5a6feaad397</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Notes" display_value="Notes" name="x_2262012_employ_1_equipment_request" sys_domain="global" view="b64f53ce830c17103284c5a6feaad372">d9826746834c17103284c5a6feaad308</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-22 07:01:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Notes</caption><header>false</header><name>x_2262012_employ_1_equipment_request</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-22 07:00:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d9826746834c17103284c5a6feaad308</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2262012_employ_1_equipment_request</sys_name><sys_overrides/><sys_package display_value="Employee Equipment Request" source="x_2262012_employ_1">b6b11fc283c817103284c5a6feaad350</sys_package><sys_policy/><sys_scope display_value="Employee Equipment Request">b6b11fc283c817103284c5a6feaad350</sys_scope><sys_update_name>sys_ui_section_d9826746834c17103284c5a6feaad308</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-22 07:00:58</sys_updated_on><sys_user/><title>false</title><view display_value="Requestor View" name="Requestor_View">b64f53ce830c17103284c5a6feaad372</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1483485365</payload_hash>
+        <record_name>Equipment Request</record_name>
+        <reverted_from/>
+        <source>6e4593ca83c817103284c5a6feaad3f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-22 07:01:02</sys_created_on>
+        <sys_id>9a826746834c17103284c5a6feaad39a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a16269cb6b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-22 07:01:02</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>5e826746ec4c1710dabd825e6839f599</update_guid>
+        <update_guid_history>5e826746ec4c1710dabd825e6839f599:1483485365</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-22 13:27:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>492c5712ab694c39bd24f4084881fef1</sys_id>
+        <sys_metadata>d9826746834c17103284c5a6feaad308</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notes</sys_name>
+        <sys_package display_value="Employee Equipment Request" source="x_2262012_employ_1">b6b11fc283c817103284c5a6feaad350</sys_package>
+        <sys_parent display_value="Equipment Request">bb94d74a83c817103284c5a6feaad31b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Equipment Request">b6b11fc283c817103284c5a6feaad350</sys_scope>
+        <sys_scope_delete display_value="">16d041fbfd9c4bdc877c5af6a5ef0924</sys_scope_delete>
+        <sys_update_name>sys_ui_section_d9826746834c17103284c5a6feaad308</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_d9826746834c17103284c5a6feaad308">9a826746834c17103284c5a6feaad39a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-22 13:27:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
